@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
+    <title>Trivia Resources</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
+            max-width: 1000px;
+            margin: 20px auto;
             padding: 20px;
             background-color: #f5f5f5;
         }
@@ -21,38 +21,380 @@
         h1 {
             text-align: center;
             color: #333;
+            margin-bottom: 30px;
         }
-        .link-list {
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
             list-style: none;
             padding: 0;
         }
-        .link-list li {
-            margin: 15px 0;
-        }
-        .link-list a {
+        .link-grid a {
             display: block;
-            padding: 15px 20px;
+            padding: 12px 16px;
             background: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
             transition: background 0.3s;
+            font-size: 14px;
         }
-        .link-list a:hover {
+        .link-grid a:hover {
             background: #0056b3;
         }
+        .geography { background: #28a745; }
+        .geography:hover { background: #1e7e34; }
+        .literature { background: #6f42c1; }
+        .literature:hover { background: #5a32a3; }
+        .science { background: #fd7e14; }
+        .science:hover { background: #e8690b; }
+        .history { background: #dc3545; }
+        .history:hover { background: #c82333; }
+        .language { background: #20c997; }
+        .language:hover { background: #1aa085; }
+        .movies { background: #ffc107; color: #212529; }
+        .movies:hover { background: #e0a800; }
+        .computer { background: #6c757d; }
+        .computer:hover { background: #5a6268; }
+        .sports { background: #17a2b8; }
+        .sports:hover { background: #138496; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Geography</h1>
-        <ul class="link-list">
-            <li><a href="https://www.triviaplaza.com/country-demonym-1-quiz/">Country & Demonym 1</a></li>
-            <li><a href="https://www.triviaplaza.com/country-demonym-2-quiz/">Country & Demonym 2</a></li>
-            <li><a href="https://www.triviaplaza.com/country-demonym-3-quiz/">Country & Demonym 3</a></li>
-            <li><a href="https://www.triviaplaza.com/country-demonym-4-quiz/">Country & Demonym 4</a></li>
-        </ul>
+        <h1>🎯 Trivia Resources Hub</h1>
+        
+        <!-- GEOGRAPHY -->
+        <div class="category">
+            <h2>🌍 GEOGRAPHY</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #28a745; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/countries-borders-rivers-quiz/" class="geography">Countries & Borders Rivers</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-1-quiz/" class="geography">Countries & Demonym 1</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-2-quiz/" class="geography">Countries & Demonym 2</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-3-quiz/" class="geography">Countries & Demonym 3</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-4-quiz/" class="geography">Countries & Demonym 4</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-5-quiz/" class="geography">Countries & Demonym 5</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-6-quiz/" class="geography">Countries & Demonym 6</a></li>
+                <li><a href="https://www.triviaplaza.com/country-demonym-7-quiz/" class="geography">Countries & Demonym 7</a></li>
+                <li><a href="https://www.triviaplaza.com/country-language-quiz/" class="geography">Country & Language</a></li>
+                <li><a href="https://www.triviaplaza.com/largest-countries-1-quiz/" class="geography">Largest Countries</a></li>
+                <li><a href="https://www.triviaplaza.com/largest-countries-2-quiz/" class="geography">Largest Countries 2</a></li>
+                <li><a href="https://www.triviaplaza.com/photo-type-of-landscape-quiz/" class="geography">Photo & Type of Landscape</a></li>
+            </ul>
+            
+            <!-- LANDMARKS -->
+            <h3 style="color: #28a745; margin: 20px 0 15px 0;">LANDMARKS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/landmarks-1-quiz/" class="geography">Landmarks 1</a></li>
+                <li><a href="https://www.triviaplaza.com/landmarks-2-quiz/" class="geography">Landmarks 2</a></li>
+                <li><a href="https://www.triviaplaza.com/landmarks-3-quiz/" class="geography">Landmarks 3</a></li>
+                <li><a href="https://www.triviaplaza.com/wonders-of-the-world-1-quiz/" class="geography">Wonders of the World 1</a></li>
+                <li><a href="https://www.triviaplaza.com/wonders-of-the-world-2-quiz/" class="geography">Wonders of the World 2</a></li>
+                <li><a href="https://www.triviaplaza.com/wonders-of-the-world-3-quiz/" class="geography">Wonders of the World 3</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-landmark-location-1-quiz/" class="geography">Pick the Landmark Location 1</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-landmark-location-2-quiz/" class="geography">Pick the Landmark Location 2</a></li>
+                <li><a href="https://www.triviaplaza.com/un-heritage-sites-country-1-quiz/" class="geography">UN Heritage Site & Country 1</a></li>
+                <li><a href="https://www.triviaplaza.com/un-heritage-sites-country-2-quiz/" class="geography">UN Heritage Site & Country 2</a></li>
+            </ul>
+            
+            <!-- USA -->
+            <h3 style="color: #28a745; margin: 20px 0 15px 0;">USA</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/usa-states-1-quiz/" class="geography">USA States 1</a></li>
+                <li><a href="https://www.triviaplaza.com/usa-states-2-quiz/" class="geography">USA States 2</a></li>
+                <li><a href="https://www.triviaplaza.com/usa-capitals-quiz/" class="geography">USA Capitals</a></li>
+                <li><a href="https://www.triviaplaza.com/us-state-nicknames-quiz/" class="geography">US State Nicknames</a></li>
+                <li><a href="https://www.triviaplaza.com/us-states-large-cities-1-quiz/" class="geography">US Large States & Cities 1</a></li>
+                <li><a href="https://www.triviaplaza.com/us-states-large-cities-2-quiz/" class="geography">US Large States & Cities 2</a></li>
+            </ul>
+            
+            <!-- WORLD -->
+            <h3 style="color: #28a745; margin: 20px 0 15px 0;">WORLD</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/basic-world-geography-facts-1-quiz/" class="geography">Basic World Geography Facts 1</a></li>
+                <li><a href="https://www.triviaplaza.com/basic-world-geography-facts-2-quiz/" class="geography">Basic World Geography Facts 2</a></li>
+                <li><a href="https://www.triviaplaza.com/bodies-water-1-quiz/" class="geography">Bodies of Water 1</a></li>
+                <li><a href="https://www.triviaplaza.com/bodies-water-2-quiz/" class="geography">Bodies of Water 2</a></li>
+                <li><a href="https://www.triviaplaza.com/bodies-water-3-quiz/" class="geography">Bodies of Water 3</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-1-quiz/" class="geography">Countries & Continents 1</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-2-quiz/" class="geography">Countries & Continents 2</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-3-quiz/" class="geography">Countries & Continents 3</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-4-quiz/" class="geography">Countries & Continents 4</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-5-quiz/" class="geography">Countries & Continents 5</a></li>
+                <li><a href="https://www.triviaplaza.com/countries-continents-6-quiz/" class="geography">Countries & Continents 6</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-country-location-1-quiz/" class="geography">Pick the Country 1</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-country-location-2-quiz/" class="geography">Pick the Country 2</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-country-location-3-quiz/" class="geography">Pick the Country 3</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-country-location-4-quiz/" class="geography">Pick the Country 4</a></li>
+                <li><a href="https://www.triviaplaza.com/pick-country-location-5-quiz/" class="geography">Pick the Country 5</a></li>
+                <li><a href="https://www.triviaplaza.com/world-countries-1-quiz/" class="geography">World Countries 1</a></li>
+                <li><a href="https://www.triviaplaza.com/world-countries-2-quiz/" class="geography">World Countries 2</a></li>
+                <li><a href="https://www.triviaplaza.com/world-countries-3-quiz/" class="geography">World Countries 3</a></li>
+                <li><a href="https://www.triviaplaza.com/world-countries-4-quiz/" class="geography">World Countries 4</a></li>
+                <li><a href="https://www.triviaplaza.com/world-capitals-1-quiz/" class="geography">World Capitals 1</a></li>
+                <li><a href="https://www.triviaplaza.com/world-capitals-2-quiz/" class="geography">World Capitals 2</a></li>
+                <li><a href="https://www.triviaplaza.com/world-shapes-1-quiz/" class="geography">World Shapes 1</a></li>
+                <li><a href="https://www.triviaplaza.com/world-shapes-2-quiz/" class="geography">World Shapes 2</a></li>
+                <li><a href="https://www.triviaplaza.com/world-shapes-3-quiz/" class="geography">World Shapes 3</a></li>
+                <li><a href="https://www.triviaplaza.com/world-shapes-4-quiz/" class="geography">World Shapes 4</a></li>
+            </ul>
+        </div>
+
+        <!-- LITERATURE -->
+        <div class="category">
+            <h2>📚 LITERATURE</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #6f42c1; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/authors-book-series-1-quiz/" class="literature">Authors & Book Series 1</a></li>
+                <li><a href="https://www.triviaplaza.com/authors-1-quiz/" class="literature">Books & Authors 1</a></li>
+                <li><a href="https://www.triviaplaza.com/authors-2-quiz/" class="literature">Books & Authors 2</a></li>
+                <li><a href="https://www.triviaplaza.com/authors-3-quiz/" class="literature">Books & Authors 3</a></li>
+                <li><a href="https://www.triviaplaza.com/authors-4-quiz/" class="literature">Books & Authors 4</a></li>
+                <li><a href="https://www.triviaplaza.com/authors-5-quiz/" class="literature">Books & Authors 5</a></li>
+                <li><a href="https://www.triviaplaza.com/classic-childrens-fiction-1-quiz/" class="literature">Classic Children's Fiction 1</a></li>
+                <li><a href="https://www.triviaplaza.com/definitions-book-terms-1-quiz/" class="literature">Definitions & Book Terms 1</a></li>
+                <li><a href="https://www.triviaplaza.com/definitions-book-terms-2-quiz/" class="literature">Definitions & Book Terms 2</a></li>
+                <li><a href="https://www.triviaplaza.com/literary-term-description-1-quiz/" class="literature">Literary Terms & Description 1</a></li>
+                <li><a href="https://www.triviaplaza.com/literary-term-description-2-quiz/" class="literature">Literary Terms & Description 2</a></li>
+            </ul>
+            
+            <!-- BOOK TITLES -->
+            <h3 style="color: #6f42c1; margin: 20px 0 15px 0;">BOOK TITLES</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/books-missing-adjectives-1-quiz/" class="literature">Books & Missing Adjectives</a></li>
+                <li><a href="https://www.triviaplaza.com/books-missing-colors-1-quiz/" class="literature">Books & Missing Colors</a></li>
+                <li><a href="https://www.triviaplaza.com/books-subtitles-1-quiz/" class="literature">Books & Subtitles</a></li>
+            </ul>
+            
+            <!-- CHARACTERS -->
+            <h3 style="color: #6f42c1; margin: 20px 0 15px 0;">CHARACTERS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/literature-characters-1-quiz/" class="literature">Literature Characters</a></li>
+            </ul>
+            
+            <!-- MOVIEBOOKS -->
+            <h3 style="color: #6f42c1; margin: 20px 0 15px 0;">MOVIEBOOKS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/movie-books-1-quiz/" class="literature">Movie Books</a></li>
+            </ul>
+        </div>
+
+        <!-- SCIENCE -->
+        <div class="category">
+            <h2>🔬 SCIENCE</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/definitions-sciences-1-quiz/" class="science">Definitions & Sciences 1</a></li>
+                <li><a href="https://www.triviaplaza.com/definitions-sciences-2-quiz/" class="science">Definitions & Sciences 2</a></li>
+                <li><a href="https://www.triviaplaza.com/inventions-1-quiz/" class="science">Inventions & Inventors 1</a></li>
+                <li><a href="https://www.triviaplaza.com/inventions-2-quiz/" class="science">Inventions & Inventors 2</a></li>
+            </ul>
+            
+            <!-- ANIMALS -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">ANIMALS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/animals-continents-1-quiz/" class="science">Animals & Continents</a></li>
+                <li><a href="https://www.triviaplaza.com/animals-latin-adjectives-1-quiz/" class="science">Animals & Latin Adjectives</a></li>
+                <li><a href="https://www.triviaplaza.com/books-subtitles-science-1-quiz/" class="science">Books & Subtitles</a></li>
+            </ul>
+            
+            <!-- MATH -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">MATH</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/multiplication-quiz/" class="science">Multiplication</a></li>
+                <li><a href="https://www.triviaplaza.com/pics-geometric-shapes-1-quiz/" class="science">Pics of Geometric Shapes 1</a></li>
+                <li><a href="https://www.triviaplaza.com/pics-geometric-shapes-2-quiz/" class="science">Pics of Geometric Shapes 2</a></li>
+                <li><a href="https://www.triviaplaza.com/polygons-edges-quiz/" class="science">Polygons & Edges</a></li>
+                <li><a href="https://www.triviaplaza.com/edges-polygons-1-quiz/" class="science">Edges & Polygons</a></li>
+                <li><a href="https://www.triviaplaza.com/roman-numerals-1-quiz/" class="science">Roman Numerals 1</a></li>
+                <li><a href="https://www.triviaplaza.com/roman-numerals-2-quiz/" class="science">Roman Numerals 2</a></li>
+            </ul>
+            
+            <!-- ELEMENTS -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">ELEMENTS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/element-1-quiz/" class="science">Abbreviations and Elements 1</a></li>
+                <li><a href="https://www.triviaplaza.com/element-2-quiz/" class="science">Abbreviations and Elements 2</a></li>
+                <li><a href="https://www.triviaplaza.com/element-3-quiz/" class="science">Abbreviations and Elements 3</a></li>
+            </ul>
+            
+            <!-- MEASURE -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">MEASURE</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/length-standards-quiz/" class="science">Length Standards</a></li>
+                <li><a href="https://www.triviaplaza.com/units-physical-quantities-1-quiz/" class="science">Units & Physical Quantities 1</a></li>
+                <li><a href="https://www.triviaplaza.com/units-physical-quantities-2-quiz/" class="science">Units & Physical Quantities 2</a></li>
+                <li><a href="https://www.triviaplaza.com/physical-quantities-units-1-quiz/" class="science">Physical Quantities & Units 1</a></li>
+                <li><a href="https://www.triviaplaza.com/physical-quantities-units-2-quiz/" class="science">Physical Quantities & Units 2</a></li>
+                <li><a href="https://www.triviaplaza.com/measuring-device-quantity-1-quiz/" class="science">Measuring Device & Quantity 1</a></li>
+                <li><a href="https://www.triviaplaza.com/measuring-device-quantity-2-quiz/" class="science">Measuring Device & Quantity 2</a></li>
+            </ul>
+            
+            <!-- ASTRONOMY -->
+            <h3 style="color: #fd7e14; margin: 20px 0 15px 0;">ASTRONOMY</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/general-facts-astronomy-quiz/" class="science">General Astronomy Facts</a></li>
+            </ul>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="category">
+            <h2>🏛️ HISTORY</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #dc3545; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/famous-women-history-quiz/" class="history">Famous Women in History</a></li>
+                <li><a href="https://www.triviaplaza.com/battles-wars-1-quiz/" class="history">Battles & Wars 1</a></li>
+                <li><a href="https://www.triviaplaza.com/battles-wars-2-quiz/" class="history">Battles & Wars 2</a></li>
+                <li><a href="https://www.triviaplaza.com/famous-explorers-1-quiz/" class="history">Famous Explorers 1</a></li>
+            </ul>
+            
+            <!-- USA -->
+            <h3 style="color: #dc3545; margin: 20px 0 15px 0;">USA</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/basic-us-presidency-facts-quiz/" class="history">Basic US Presidency Facts</a></li>
+                <li><a href="https://www.triviaplaza.com/us-presidents-pictures-1-quiz/" class="history">US President Pictures 1</a></li>
+                <li><a href="https://www.triviaplaza.com/us-presidents-pictures-2-quiz/" class="history">US President Pictures 2</a></li>
+                <li><a href="https://www.triviaplaza.com/nicknames-us-presidents-quiz/" class="history">Nicknames & US Presidents</a></li>
+            </ul>
+            
+            <!-- MYTHOLOGY -->
+            <h3 style="color: #dc3545; margin: 20px 0 15px 0;">MYTHOLOGY</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/descriptions-olympian-god-quiz/" class="history">Descriptions & Olympian God</a></li>
+                <li><a href="https://www.triviaplaza.com/olympian-god-descriptions-quiz/" class="history">Olympian God & Descriptions</a></li>
+            </ul>
+            
+            <!-- MODERN ERA -->
+            <h3 style="color: #dc3545; margin: 20px 0 15px 0;">MODERN ERA</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/colonies-countries-1-quiz/" class="history">Colonies & Countries 1</a></li>
+                <li><a href="https://www.triviaplaza.com/leader-photo-quiz/" class="history">Leader & Photo</a></li>
+                <li><a href="https://www.triviaplaza.com/leader-country-quiz/" class="history">Leader & Country</a></li>
+            </ul>
+        </div>
+
+        <!-- LANGUAGE -->
+        <div class="category">
+            <h2>🗣️ LANGUAGE</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #20c997; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/definition-type-word-1-quiz/" class="language">Definition & Type of Word 1</a></li>
+                <li><a href="https://www.triviaplaza.com/greek-prefixes-meanings-quiz/" class="language">Greek Prefixes & Meanings</a></li>
+                <li><a href="https://www.triviaplaza.com/descriptions-reduplicatives-quiz/" class="language">Descriptions & Reduplicatives</a></li>
+            </ul>
+            
+            <!-- IDIOMS -->
+            <h3 style="color: #20c997; margin: 20px 0 15px 0;">IDIOMS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/idiom-missing-body-part-quiz/" class="language">Idiom & Missing Body Part</a></li>
+                <li><a href="https://www.triviaplaza.com/idiom-missing-animals-quiz/" class="language">Idiom & Missing Animals</a></li>
+                <li><a href="https://www.triviaplaza.com/idioms-missing-food-quiz/" class="language">Idioms & Missing Food</a></li>
+                <li><a href="https://www.triviaplaza.com/idioms-missing-numbers-quiz/" class="language">Idioms & Missing Numbers</a></li>
+            </ul>
+        </div>
+
+        <!-- MOVIES -->
+        <div class="category">
+            <h2>🎬 MOVIES</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #856404; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/directors-1-2-quiz/" class="movies">Directors 1-2</a></li>
+            </ul>
+            
+            <!-- TITLES -->
+            <h3 style="color: #856404; margin: 20px 0 15px 0;">TITLES</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/animals-movie-titles-quiz/" class="movies">Animals & Movie Titles</a></li>
+                <li><a href="https://www.triviaplaza.com/movie-titles-quiz/" class="movies">Movie Titles</a></li>
+                <li><a href="https://www.triviaplaza.com/place-movie-titles-quiz/" class="movies">Place & Movie Titles</a></li>
+            </ul>
+            
+            <!-- CHARACTERS -->
+            <h3 style="color: #856404; margin: 20px 0 15px 0;">CHARACTERS</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/characters-quiz/" class="movies">Characters</a></li>
+            </ul>
+            
+            <!-- DISNEY -->
+            <h3 style="color: #856404; margin: 20px 0 15px 0;">DISNEY</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/disney-pixar-characters-1-quiz/" class="movies">Disney & Pixar Characters 1</a></li>
+                <li><a href="https://www.triviaplaza.com/disney-animals-1-quiz/" class="movies">Disney Animals 1</a></li>
+                <li><a href="https://www.triviaplaza.com/name-disney-character-1-quiz/" class="movies">Name the Disney Character 1</a></li>
+                <li><a href="https://www.triviaplaza.com/name-pixar-character-quiz/" class="movies">Name the Pixar Character</a></li>
+            </ul>
+        </div>
+
+        <!-- COMPUTER -->
+        <div class="category">
+            <h2>💻 COMPUTER</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #6c757d; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/abbreviations-1-quiz/" class="computer">Abbreviations 1</a></li>
+                <li><a href="https://www.triviaplaza.com/abbreviations-2-quiz/" class="computer">Abbreviations 2</a></li>
+                <li><a href="https://www.triviaplaza.com/abbreviations-3-quiz/" class="computer">Abbreviations 3</a></li>
+                <li><a href="https://www.triviaplaza.com/computer-symbols-names-1-quiz/" class="computer">Computer Symbols & Names 1</a></li>
+                <li><a href="https://www.triviaplaza.com/logo-computer-brands-quiz/" class="computer">Logo & Computer Brands</a></li>
+                <li><a href="https://www.triviaplaza.com/icons-apps-programs-quiz/" class="computer">Icons of Apps & Programs</a></li>
+            </ul>
+        </div>
+
+        <!-- SPORTS -->
+        <div class="category">
+            <h2>⚽ SPORTS</h2>
+            
+            <!-- GENERAL -->
+            <h3 style="color: #17a2b8; margin: 20px 0 15px 0;">GENERAL</h3>
+            <ul class="link-grid">
+                <li><a href="https://www.triviaplaza.com/cities-nba-teams-quiz/" class="sports">Cities & NBA Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/cities-mlb-teams-quiz/" class="sports">Cities & MLB Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/cities-nfl-teams-quiz/" class="sports">Cities & NFL Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/cities-nhl-teams-quiz/" class="sports">Cities & NHL Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/logos-nba-teams-quiz/" class="sports">Logos & NBA Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/logos-nfl-teams-quiz/" class="sports">Logos & NFL Teams</a></li>
+                <li><a href="https://www.triviaplaza.com/photos-sports-1-quiz/" class="sports">Photos of Sports 1</a></li>
+                <li><a href="https://www.triviaplaza.com/teams-us-sports-quiz/" class="sports">Teams & US Sports</a></li>
+                <li><a href="https://www.triviaplaza.com/terminology-sports-quiz/" class="sports">Terminology & Sports</a></li>
+                <li><a href="https://www.triviaplaza.com/equipment-photos-sports-quiz/" class="sports">Equipment Photos & Sports</a></li>
+            </ul>
+        </div>
+
+        <!-- MY RESOURCES -->
+        <div class="category">
+            <h2>🎯 MY RESOURCES</h2>
+            <ul class="link-grid">
+                <li><a href="YOUR_TRIVIA_APP_URL" style="background: #28a745;">🎯 Play My Trivia App</a></li>
+                <li><a href="YOUR_SECOND_LINK" style="background: #17a2b8;">📊 View Leaderboards</a></li>
+                <li><a href="YOUR_THIRD_LINK" style="background: #6f42c1;">📱 Install as PWA</a></li>
+                <li><a href="mailto:your@email.com" style="background: #dc3545;">📧 Contact Me</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
